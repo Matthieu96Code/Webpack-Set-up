@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --mode development",
+    "start": "webpack serve --open",
     "build": "webpack --mode production"
   },
   "repository": {
@@ -26,6 +27,7 @@
   "devDependencies": {
     "css-loader": "^6.7.3",
     "html-webpack-plugin": "^5.5.0",
-    "style-loader": "^3.3.1"
+    "style-loader": "^3.3.1",
+    "webpack-dev-server": "^4.11.1"
   }
 }

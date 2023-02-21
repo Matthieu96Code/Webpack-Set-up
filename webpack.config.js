@@ -2,6 +2,9 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const path = require("path");
 
 module.exports = {
+    devServer: {
+        static: './dist',
+      },
     module: {
         rules: [
           {
@@ -18,5 +21,8 @@ module.exports = {
   ],
   output: {
     clean: true
-  }
+  },
+  optimization: {
+    runtimeChunk: 'single',
+  },
 };
