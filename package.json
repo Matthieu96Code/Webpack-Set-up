@@ -2,7 +2,7 @@
   "name": "webpack-set-up",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --mode development",
@@ -24,6 +24,8 @@
     "webpack-cli": "^5.0.1"
   },
   "devDependencies": {
-    "html-webpack-plugin": "^5.5.0"
+    "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1"
   }
 }
